@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ConfigClientController {
 
+	/**
+	 * 启动报错：获取不到from值
+	 */
 	@Value("${from}")
 	private String from;
 	
