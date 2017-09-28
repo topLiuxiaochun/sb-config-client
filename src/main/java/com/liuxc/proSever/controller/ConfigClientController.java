@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ConfigClientController {
 
 	/**
-	 * 启动报错：获取不到from值
+	 * 启动报错：获取不到from值参考：https://gitee.com/gongxusheng/spring-config-demo/tree/master	
 	 */
 	@Value("${from}")
 	private String from;
