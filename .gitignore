@@ -25,10 +25,11 @@ hs_err_pid*
 bin
 logs
 test-output
-#.classpath
-#.project
-#.settings
+.classpath
+.project
+.settings
 .DS_Store
 #/target/
 /.idea/
 /src/main/resources/rebel.xml
+/target/
